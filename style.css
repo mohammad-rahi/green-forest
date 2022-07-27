@@ -514,7 +514,7 @@ nav .sub_menu li a {
 }
 
 .collection_item:hover::after {
-    content: "View More";
+    content: "View";
     position: absolute;
     top: 45%;
     left: 30%;
