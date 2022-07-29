@@ -252,7 +252,7 @@ nav .sub_menu li a {
 
 /*===== MAIN =====*/
 .main_right {
-    margin-right: 10%;
+    margin-right: 20%;
     transition: all .5s;
     position: relative;
 }
@@ -263,7 +263,7 @@ nav .sub_menu li a {
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 80%;
     background-color: #000;
     opacity: .5;
     z-index: var(--z-fixed);
