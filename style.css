@@ -261,6 +261,7 @@ nav .sub_menu li a {
     content: '';
     position: absolute;
     top: 0;
+    left: 0;
     bottom: 0;
     right: 60%;
     background-color: #000;
@@ -634,7 +635,6 @@ nav .sub_menu li a {
 }
 
 @media screen and (max-width: 992px) {
-
     .fa-caret-down {
         display: none !important;
     }
@@ -685,7 +685,7 @@ nav .sub_menu li a {
     }
 
     .nav_toggle, .fa-caret-down{
-        display: inline-block;
+        display: inline-block !important;
     }
 
     .home_wrapper {
