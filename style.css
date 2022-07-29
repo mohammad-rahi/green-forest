@@ -252,7 +252,7 @@ nav .sub_menu li a {
 
 /*===== MAIN =====*/
 .main_right {
-    margin-right: 80%;
+    margin-right: 10%;
     transition: all .5s;
     position: relative;
 }
@@ -265,7 +265,7 @@ nav .sub_menu li a {
     bottom: 0;
     right: 0;
     background-color: #000;
-    opacity: .7;
+    opacity: .5;
     z-index: var(--z-fixed);
 }
 
@@ -644,7 +644,7 @@ nav .sub_menu li a {
 @media screen and (max-width: 768px) {
     .nav_menu {
         position: fixed;
-        top: var(--header-height);
+        top: 0;
         right: -100%;
         width: 80%;
         height: 100%;
@@ -685,7 +685,7 @@ nav .sub_menu li a {
         color: var(--second-color);
     }
 
-    .nav_toggle {
+    .nav_toggle, .fa-caret-down{
         display: inline-block;
     }
 
